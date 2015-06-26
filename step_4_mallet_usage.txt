@@ -1,0 +1,27 @@
+For this project, mallet 2.0.7 was run on a Microsoft Windows 7 machine.
+
+Mallet was located at:
+C:\mallet\
+
+The downloaded and pre-processed case laws are located at:
+C:\mallet\step4\caselaws\
+
+The created stop words file was located at:
+C:\mallet\step4\stopwords.txt
+
+
+The three used commend line rguments (order must be the same):
+cd C:\mallet
+
+bin\mallet import-dir --input step4\caselaws --output step4\caselaw.mallet --keep-sequence --stoplist-file step4\stopwords.txt --token-regex "[\p{L}\p{M}]+"
+bin\mallet train-topics --input step4\caselaw.mallet
+
+--num-topics 150 --xml-topic-phrase-report step4\topics.xml --output-doc-topics step4\composition.txt 
+
+
+
+Explanation:
+--token-regex "[\p{L}\p{M}]+" provides  support  for  unicode letters and marks, without it, only normal letters (a to z) can be used.
+On a linux machine ’[\p{L}\p{M}]+’ should be used.
+
+--xml-phrase-report provides support for word phrases, without it, word order is ignored.
