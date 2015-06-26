@@ -5,6 +5,7 @@ Created on Sun May 17 16:54:41 2015
 AUTHOR
 Erwin van den Berg
 """
+# Tested with python 2.7
 import operator
 import os
 import re
