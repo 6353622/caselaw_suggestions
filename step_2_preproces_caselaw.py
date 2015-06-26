@@ -18,7 +18,7 @@ case_laws_location = 'caselaws'
 
 # delete the smallest X percentage files from the corpus
 # percentage = 1 # = standard percentage
-smallest_doc_percentage = 10
+smallest_doc_percentage = 1
 
 
 #################### Actual code:
