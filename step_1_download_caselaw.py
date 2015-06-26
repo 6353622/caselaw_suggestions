@@ -6,6 +6,7 @@ AUTHOR
 Erwin van den Berg
 Based on code from Bart Vredebregt <bart.vredebregt@gmail.com>
 """
+# Tested with python 3.4
 import os
 import re
 import time
