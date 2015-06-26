@@ -111,18 +111,8 @@ else:
     print(len(total_word_counts), " words found in corpus")
     
     
-
-    
-    
-    
-    
-    
-    
     
     ############################# Create stop list file
-    
-    
-    
     # stop words list 
     stopwordslist = []
     
