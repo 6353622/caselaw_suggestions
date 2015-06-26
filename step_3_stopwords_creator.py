@@ -3,6 +3,7 @@
 AUTHOR
 Erwin van den Berg
 """
+# Tested with python 2.7
 import os
 import re
 import time
