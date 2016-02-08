@@ -4,7 +4,7 @@ Created on Tue May 19 03:00:12 2015
 
 AUTHOR
 Erwin van den Berg
-Based on code from Bart Vredebregt <bart.vredebregt@gmail.com>
+Based on code from Bart Vredebregt
 """
 # Tested with python 3.4
 import os
